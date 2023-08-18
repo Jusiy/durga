@@ -1,0 +1,67 @@
+body{
+	background-image: url("../image/Javajam/image1/wallpaper.jpg");
+	background-size: 100%;
+}
+#wrapper{
+	background-color: #967259;
+	width: 80%;
+	margin-left: auto;
+	margin-right:auto;
+
+}
+#header{
+	background-color: #cfc0b7;
+	background-image: url("../image/Javajam/image1/coffee1.jpg");
+	background-repeat:no-repeat;
+	background-position:left;
+	
+
+}
+h1{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-left:200px;
+	font-size: 3em;
+
+}
+#nav{
+	float:left;
+	width:200px; 
+	font-size: 1.5em;
+}
+#nav ul{
+	list-style-type:none;
+}
+#nav a{
+	text-decoration: none;
+}
+#nav a:link{
+	color:#7d4e2d;
+}
+#nav a:hover{
+	color:#ece0d1;
+}
+#nav a:visited{
+	color:#ec7063;
+}
+#main{
+	background-color:#FCFFE7;
+	margin-left:180px;
+}
+#windingroad{
+	height:250 ;
+	background-image: url("../image/road.jpg");
+}
+h3,p,h4,ul,#address{
+	padding-left: 50px;
+}
+#address{
+	padding-button:40px;
+}
+li:nth-of-type(even){
+	color:red;
+}
+li:nth-of-type(odd){
+	color:green;
+}
+
